@@ -85,19 +85,25 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 392.3333282470703,
+			"y": 103.59900856018066,
+			"z": 1,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 39.00001525878906,
-			"y": 122.33330535888672,
-			"lastActivityTimestamp": 1760551578348,
+			"x": -118.33332824707031,
+			"y": 169.0676784515381,
+			"lastActivityTimestamp": 1760599173571,
 			"meta": {}
 		},
 		{
 			"followingUserId": null,
 			"opacityForNextShape": 1,
-			"stylesForNextShape": {
-				"tldraw:color": "grey"
-			},
+			"stylesForNextShape": {},
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
@@ -140,12 +146,10 @@
 			"typeName": "instance"
 		},
 		{
-			"editingShapeId": "shape:nzPCrtc0C9cDbY-2NDWXX",
+			"editingShapeId": null,
 			"croppingShapeId": null,
-			"selectedShapeIds": [
-				"shape:nzPCrtc0C9cDbY-2NDWXX"
-			],
-			"hoveredShapeId": "shape:nzPCrtc0C9cDbY-2NDWXX",
+			"selectedShapeIds": [],
+			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -153,59 +157,6 @@
 			"id": "instance_page_state:page:page",
 			"pageId": "page:page",
 			"typeName": "instance_page_state"
-		},
-		{
-			"x": 247.6666717529297,
-			"y": 67.00003814697266,
-			"z": 1,
-			"meta": {},
-			"id": "camera:page:page",
-			"typeName": "camera"
-		},
-		{
-			"x": -12.333328247070312,
-			"y": 70.80204391479492,
-			"rotation": 0,
-			"isLocked": false,
-			"opacity": 1,
-			"meta": {},
-			"id": "shape:nzPCrtc0C9cDbY-2NDWXX",
-			"type": "text",
-			"props": {
-				"color": "grey",
-				"size": "m",
-				"w": 497.3958435058594,
-				"font": "draw",
-				"textAlign": "start",
-				"autoSize": true,
-				"scale": 1,
-				"richText": {
-					"type": "doc",
-					"content": [
-						{
-							"type": "paragraph",
-							"attrs": {
-								"dir": "auto"
-							}
-						},
-						{
-							"type": "paragraph",
-							"attrs": {
-								"dir": "auto"
-							},
-							"content": [
-								{
-									"type": "text",
-									"text": "what is the main charactor of the man "
-								}
-							]
-						}
-					]
-				}
-			},
-			"parentId": "page:page",
-			"index": "a2PecjaV",
-			"typeName": "shape"
 		}
 	]
 }
