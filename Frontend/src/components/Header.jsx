@@ -8,7 +8,7 @@ export default function Header({ theme, toggleTheme }) {
   const navItems = [
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
-    { name: 'Services', path: '/services' },
+    // { name: 'Services', path: '/services' },
     { name: 'Login', path: '/login' },
   ];
 
