@@ -9,7 +9,7 @@ export default function HomePage() {
           Predictive Analysis for Hospital Resource Management
         </h1>
         <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-          This dashboard provides real-time insights and predictive analytics to optimize hospital resource allocation. 
+          This dashboard provides real-time insights and predictive analytics to optimize hospital resource allocation.
         </p>
       </div>
 

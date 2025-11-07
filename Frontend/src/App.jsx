@@ -6,6 +6,9 @@ import AboutPage from './pages/AboutPage';
 import ServicesPage from './pages/ServicesPage';
 import LoginPage from './pages/LoginPage';
 import SignUp from './pages/SignUp';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import Dashboard from './pages/Dashboard';
 
 export default function App() {
   const [theme, setTheme] = React.useState(localStorage.getItem('theme') || 'light');
@@ -32,10 +35,14 @@ export default function App() {
             <Route path="/services" element={<ServicesPage />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/signup" element={<SignUp />} />
+            <Route path="/dashboard" element={<Dashboard/>}/>
+
           </Routes>
         </main>
+
+        {/* ✅ Toast Container — required for toast messages */}
+        <ToastContainer position="top-right" autoClose={3000} theme={theme === 'dark' ? 'dark' : 'light'} />
       </div>
     </Router>
   );
 }
-
