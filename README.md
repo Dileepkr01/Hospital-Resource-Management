@@ -50,5 +50,4 @@ This project ensures smooth coordination between hospital staff, patients, and a
 * Role-Based Access Control (Admin/Doctor/Staff)
 * Secure API handling with CORS
 
----
 
